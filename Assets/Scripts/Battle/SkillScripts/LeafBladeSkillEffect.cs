@@ -6,6 +6,7 @@ namespace EnjoyJob.Battle.Skills
     {
         public override void Execute(SkillEffectContext context)
         {
+            Debug.Log("LeafBladeSkillEffect: 测试 Git 提交。");
             int damage = context.Damage;
             if (context.Target is ISkillDamageReceiver damageReceiver)
             {
