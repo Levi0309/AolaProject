@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PetxlSelfAnimOverride
+  m_Controller: {fileID: 9100000, guid: 4037dabc51930484c8862ab6cacfbe3d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ed04836a2aee228449247a9c97f7f72c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 973fb10326d7036419c6712740e4487d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6fe39bbaf0c086f4686799d941eb5b77, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 614ddbed1c7394548807e002033927da, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 436ca21ad24d1e34988d13f3b5ea535b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 27223873df743954fb007d6fbaaf3b92, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c438f13fc03c44c468f44c22fc209473, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a239cfcda705eef4fa7a407d7a5b6835, type: 2}

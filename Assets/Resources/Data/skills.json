@@ -1,0 +1,169 @@
+{
+    "skills": [
+        {
+            "id": 1001,
+            "name": "叶刃击",
+            "description": "用锋利的叶片攻击对手。",
+            "element": "木系",
+            "power": 40,
+            "maxPp": 35,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/wood",
+            "SkillEffectScrpit": "LeafBladeSkillEffect"
+        },
+        {
+            "id": 1002,
+            "name": "水弹",
+            "description": "发射高速水弹攻击对手。",
+            "element": "水系",
+            "power": 40,
+            "maxPp": 35,
+            "attackType": "特殊攻击",
+            "iconResourcePath": "Icons/Elements/water",
+            "SkillEffectScrpit": "WaterShotSkillEffect"
+        },
+        {
+            "id": 1003,
+            "name": "火花",
+            "description": "释放小型火焰攻击对手。",
+            "element": "火系",
+            "power": 40,
+            "maxPp": 35,
+            "attackType": "特殊攻击",
+            "iconResourcePath": "Icons/Elements/fire",
+            "SkillEffectScrpit": "SparkFlameSkillEffect"
+        },
+        {
+            "id": 1004,
+            "name": "暗影爪",
+            "description": "用带有黑暗力量的爪击攻击对手。",
+            "element": "黑暗系",
+            "power": 45,
+            "maxPp": 30,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/dark",
+            "SkillEffectScrpit": "DarkClawSkillEffect"
+        },
+        {
+            "id": 1005,
+            "name": "五色光环",
+            "description": "恢复自身50血量。",
+            "element": "光明系",
+            "power": -1,
+            "maxPp": 5,
+            "attackType": "属性攻击",
+            "iconResourcePath": "Icons/Elements/light",
+            "SkillEffectScrpit": "LightGuardSkillEffect"
+        },
+        {
+            "id": 1006,
+            "name": "战武遗魂",
+            "description": "提示自身全属性一级。",
+            "element": "上古系",
+            "power": -1,
+            "maxPp": 5,
+            "attackType": "属性攻击",
+            "iconResourcePath": "Icons/Elements/ancient",
+            "SkillEffectScrpit": "UpAllStatusEffect"
+        },
+        {
+            "id": 1007,
+            "name": "落日吞天",
+            "description": "对敌方单体造成伤害，25%概率降低目标全属性一级。",
+            "element": "上古系",
+            "power": 60,
+            "maxPp": 35,
+            "attackType": "特殊攻击",
+            "iconResourcePath": "Icons/Elements/ancient",
+            "SkillEffectScrpit": "SunSwallowSkyEffect"
+        },
+        {
+            "id": 1008,
+            "name": "上古战魂",
+            "description": "提升自己攻击，命中，暴击，防御，特防和速度等级各1级，回合结束时恢复一定体力值。",
+            "element": "光明系",
+            "power": -1,
+            "maxPp": 10,
+            "attackType": "属性攻击",
+            "iconResourcePath": "Icons/Elements/light",
+            "SkillEffectScrpit": "Up5PropertiesAndHealSkillEffect"
+        },
+        {
+            "id": 1009,
+            "name": "修罗裂空破",
+            "description": "必定束缚对手5回合，40%概率清空对方增益能力效果。",
+            "element": "光明系",
+            "power": 80,
+            "maxPp": 10,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/light",
+            "SkillEffectScrpit": "xiuluoliekongpoSkillEffect"
+        },
+        {
+            "id": 1010,
+            "name": "修罗流星",
+            "description": "先发，攻击对方单体，30%概率令对方烧伤，命中则本回合受到伤害减半。",
+            "element": "光明系",
+            "power": 50,
+            "maxPp": 6,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/light",
+            "SkillEffectScrpit": "xiuluoliuxingSkillEffect"
+        },
+        {
+            "id": 1011,
+            "name": "炎芒傲日",
+            "description": "自己特攻与对方特攻比值越大，威力越大。",
+            "element": "火系",
+            "power": -1,
+            "maxPp": 5,
+            "attackType": "特殊攻击",
+            "iconResourcePath": "Icons/Elements/fire",
+            "SkillEffectScrpit": "yanmangaoriSkillEffet"
+        },
+        {
+            "id": 1012,
+            "name": "断罪十字",
+            "description": "攻击对方单体2次，每次命中随机提升攻击，命中，暴击和速度任意2种属性能力等级1级。",
+            "element": "圣灵系",
+            "power": 40,
+            "maxPp": 5,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/HolySpirit",
+            "SkillEffectScrpit": "TenWordSkillEffect"
+        },
+        {
+            "id": 1013,
+            "name": "圣王之域",
+            "description": "先发，重置全场亚比能力等级，束缚全场亚比，自己每次受到伤害则提升自己速度和闪避等级1级，持续3回合，不能叠加",
+            "element": "黑暗系",
+            "power": -1,
+            "maxPp": 2,
+            "attackType": "属性攻击",
+            "iconResourcePath": "Icons/Elements/dark",
+            "SkillEffectScrpit": "DarkKingSkillEffect"
+        },
+        {
+            "id": 1014,
+            "name": "天堂契约",
+            "description": "降低对方防御，闪避和速度等级1级；30%概率令对方害怕且削弱效果翻倍。",
+            "element": "圣灵系",
+            "power": -1,
+            "maxPp": 5,
+            "attackType": "属性攻击",
+            "iconResourcePath": "Icons/Elements/HolySpirit",
+            "SkillEffectScrpit": "HevenContractSkillEffect"
+        },
+        {
+            "id": 1015,
+            "name": "无尽恐惧",
+            "description": "攻击对方单体，25%概率令对方害怕；若暴击则将伤害的一半来回复自己并降低对方全属性1级。",
+            "element": "黑暗系",
+            "power": 90,
+            "maxPp": 5,
+            "attackType": "普通攻击",
+            "iconResourcePath": "Icons/Elements/dark",
+            "SkillEffectScrpit": "EndlessFearSkillEffect"
+        }
+    ]
+}

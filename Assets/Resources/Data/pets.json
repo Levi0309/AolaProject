@@ -1,0 +1,133 @@
+{
+    "pets": [
+        {
+            "id": 1001,
+            "name": "苍炎战神",
+            "element": "上古系",
+            "secondElement": "格斗系",
+            "imageResourcePath": "Animations/苍炎战神/hit/1",
+            "animations": {
+                "idle": "Animations/苍炎战神/Idle/Idle",
+                "normalAttack1": "Animations/苍炎战神/Attack/Attack",
+                "normalAttack2": "Animations/苍炎战神/Attack/Attack",
+                "specialAttack1": "Animations/苍炎战神/Attack/Attack",
+                "specialAttack2": "Animations/苍炎战神/Attack/Attack",
+                "attributeAttack1": "Animations/苍炎战神/Buff/Buff",
+                "attributeAttack2": "Animations/苍炎战神/Buff/Buff",
+                "hurt": "Animations/苍炎战神/hit/Hit"
+            },
+            "speciesStats": {
+                "attack": 80,
+                "specialAttack": 125,
+                "defense": 100,
+                "specialDefense": 100,
+                "stamina": 100,
+                "speed": 125
+            },
+            "learnableSkills": [
+                {
+                    "learnLevel": 5,
+                    "skillId": 1005
+                },
+                {
+                    "learnLevel": 10,
+                    "skillId": 1003
+                },
+                {
+                    "learnLevel": 15,
+                    "skillId": 1007
+                },
+                {
+                    "learnLevel": 20,
+                    "skillId": 1006
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "name": "圣光修罗",
+            "element": "光明系",
+            "secondElement": "上古系",
+            "imageResourcePath": "Animations/圣光修罗/SelfIdle/1",
+            "animations": {
+                "idle": "Animations/圣光修罗/SelfIdle/Idle",
+                "normalAttack1": "Animations/圣光修罗/SelfAttack/Attack",
+                "normalAttack2": "Animations/圣光修罗/SelfAttack/Attack",
+                "specialAttack1": "Animations/圣光修罗/SelfAttack/Attack",
+                "specialAttack2": "Animations/圣光修罗/SelfAttack/Attack",
+                "attributeAttack1": "Animations/圣光修罗/SelfBuff/Buff",
+                "attributeAttack2": "Animations/圣光修罗/SelfBuff/Buff",
+                "hurt": "Animations/圣光修罗/SelfHit/selfHit"
+            },
+            "speciesStats": {
+                "attack": 130,
+                "specialAttack": 80,
+                "defense": 90,
+                "specialDefense": 105,
+                "stamina": 110,
+                "speed": 115
+            },
+            "learnableSkills": [
+                {
+                    "learnLevel": 5,
+                    "skillId": 1005
+                },
+                {
+                    "learnLevel": 10,
+                    "skillId": 1008
+                },
+                {
+                    "learnLevel": 15,
+                    "skillId": 1009
+                },
+                {
+                    "learnLevel": 20,
+                    "skillId": 1010
+                }
+            ]
+        },
+        {
+            "id": 1003,
+            "name": "冥焰夜王",
+            "element": "黑暗系",
+            "secondElement": "圣灵系",
+            "imageResourcePath": "Animations/冥焰夜王/SelfBuff/1",
+            "animations": {
+                "idle": "Animations/冥焰夜王/SelfIdle/Idle",
+                "normalAttack1": "Animations/冥焰夜王/SelfAttack/Attack",
+                "normalAttack2": "Animations/冥焰夜王/SelfAttack/Attack",
+                "specialAttack1": "Animations/冥焰夜王/SelfAttack/Attack",
+                "specialAttack2": "Animations/冥焰夜王/SelfAttack/Attack",
+                "attributeAttack1": "Animations/冥焰夜王/SelfBuff/Buff",
+                "attributeAttack2": "Animations/冥焰夜王/SelfBuff/Buff",
+                "hurt": "Animations/冥焰夜王/SelfHit/selfHit"
+            },
+            "speciesStats": {
+                "attack": 127,
+                "specialAttack": 80,
+                "defense": 88,
+                "specialDefense": 90,
+                "stamina": 99,
+                "speed": 146
+            },
+            "learnableSkills": [
+                {
+                    "learnLevel": 1,
+                    "skillId": 1012
+                },
+                {
+                    "learnLevel": 5,
+                    "skillId": 1013
+                },
+                {
+                    "learnLevel": 10,
+                    "skillId": 1014
+                },
+                {
+                    "learnLevel": 20,
+                    "skillId": 1015
+                }
+            ]
+        }
+    ]
+}
